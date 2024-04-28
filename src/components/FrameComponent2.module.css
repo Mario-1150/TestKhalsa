@@ -1,0 +1,186 @@
+.aSimplifiedTool,
+.easyread {
+  position: relative;
+  line-height: 38px;
+  white-space: nowrap;
+}
+.easyread {
+  margin: 0;
+  width: 297px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+.aSimplifiedTool {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.easyreadParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.easyreadParent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.frameWrapper {
+  width: 316px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.forStudents {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  cursor: pointer;
+  z-index: 1;
+}
+.forProfessionals,
+.forStudents {
+  white-space: nowrap;
+}
+.forProfessionals,
+.home {
+  flex: 1;
+  position: relative;
+  line-height: 35px;
+  cursor: pointer;
+}
+.forStudentsParent,
+.frameContainer {
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+}
+.forStudentsParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.frameContainer {
+  width: 492px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.unionIcon {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.unionWrapper {
+  width: 112.6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-14xl-2) var(--padding-xs-7) 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 43px;
+  width: 167px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-lemonchiffon);
+  display: none;
+}
+.signIn {
+  width: 103px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangleParent {
+  background-color: var(--color-lemonchiffon);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-11xs);
+  white-space: nowrap;
+}
+.frameItem {
+  height: 43px;
+}
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  width: 372px;
+  align-items: flex-start;
+  gap: var(--gap-19xl);
+}
+.frameGroup {
+  align-items: flex-end;
+  gap: var(--gap-22xl-7);
+  margin-left: -19px;
+  font-size: var(--font-size-xl);
+}
+.frameParent,
+.gettingStarteduploadInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.gettingStarteduploadInner {
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1350px) {
+  .aSimplifiedTool {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .forStudentsParent {
+    display: none;
+  }
+  .frameContainer {
+    display: none;
+    width: 0;
+  }
+  .frameGroup {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameDiv {
+    gap: var(--gap-lgi);
+  }
+}

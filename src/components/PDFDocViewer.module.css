@@ -1,0 +1,114 @@
+.embeddedPDF {
+  width: 438px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  min-width: 438px;
+  max-width: 100%;
+}
+.frameChild {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 50px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: var(--font-playfair-display);
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  z-index: 1;
+}
+.frameWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 456px;
+  max-width: 100%;
+}
+.accountMenuIconChild {
+  height: 52px;
+  width: 69px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+}
+.speakerIconLogo600nw759702 {
+  height: 37px;
+  width: 49px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.accountMenuIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-6xs) var(--padding-3xs) var(--padding-5xs);
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.frameParent {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-sm);
+  min-width: 510px;
+}
+.frameParent,
+.informationBox,
+.pDFDocViewer {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.informationBox {
+  flex: 1;
+  align-items: flex-end;
+  justify-content: center;
+  gap: var(--gap-102xl);
+}
+.pDFDocViewer {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1325px) {
+  .embeddedPDF {
+    flex: 1;
+  }
+  .informationBox {
+    flex-wrap: wrap;
+    gap: var(--gap-41xl);
+  }
+}
+@media screen and (max-width: 800px) {
+  .embeddedPDF,
+  .frameParent,
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .informationBox {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .informationBox {
+    gap: var(--gap-mini);
+  }
+}

@@ -1,0 +1,289 @@
+.aSimplifiedTool,
+.easyread {
+  position: relative;
+  line-height: 38px;
+  white-space: nowrap;
+}
+.easyread {
+  margin: 0;
+  width: 297px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.aSimplifiedTool {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+}
+.easyreadParent,
+.frameWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.easyreadParent {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.frameWrapper1 {
+  flex: 1;
+  padding: var(--padding-11xs) 0 0;
+}
+.forStudents {
+  width: 164px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 35px;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 1;
+  margin-left: -19px;
+}
+.frameContainer,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+}
+.frameContainer {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+}
+.forProfessionals {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+  white-space: nowrap;
+  cursor: pointer;
+  z-index: 2;
+}
+.forProfessionalsWrapper {
+  width: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.ourImpact {
+  width: 164px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.ourImpactWrapper {
+  width: 205.7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.unionIcon {
+  width: 79.4px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.unionWrapper {
+  width: 154.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-3) 0 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 43px;
+  width: 167px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-lemonchiffon);
+  display: none;
+}
+.signIn {
+  width: 103px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameItem,
+.rectangleParent {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.rectangleParent {
+  background-color: var(--color-lemonchiffon);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-11xs);
+  white-space: nowrap;
+}
+.frameItem {
+  height: 43px;
+}
+.frameParent1 {
+  width: 372px;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+}
+.frameGroup,
+.frameParent1,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 1425px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+.frameInner {
+  width: 1469px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: -15px;
+  background-color: var(--color-whitesmoke);
+}
+.ourObjective,
+.ourObjective1 {
+  margin: 0;
+  height: 74px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 38px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.ourObjective1 {
+  z-index: 2;
+  margin: 0 0 0-421px;
+}
+.frameWrapper2,
+.ourObjectiveParent {
+  width: 421px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper2 {
+  width: 901px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.weStriveTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 38px;
+  text-align: center;
+  z-index: 1;
+}
+.frameParent,
+.rectangleGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleGroup {
+  align-items: flex-start;
+  padding: var(--padding-114xl) var(--padding-204xl) var(--padding-94xl)
+    var(--padding-275xl);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.frameParent {
+  align-items: flex-end;
+  padding: 0 0 var(--padding-mini);
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1350px) {
+  .aSimplifiedTool {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameParent1 {
+    display: none;
+  }
+  .ourObjective,
+  .ourObjective1 {
+    font-size: var(--font-size-32xl);
+    line-height: 30px;
+  }
+  .rectangleGroup {
+    padding-left: var(--padding-128xl);
+    padding-right: var(--padding-92xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameParent1 {
+    gap: var(--gap-lgi);
+  }
+  .ourObjective,
+  .ourObjective1 {
+    font-size: var(--font-size-19xl);
+    line-height: 23px;
+  }
+  .weStriveTo {
+    font-size: var(--font-size-lgi);
+    line-height: 30px;
+  }
+  .rectangleGroup {
+    padding: var(--padding-67xl) var(--padding-xl) var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}

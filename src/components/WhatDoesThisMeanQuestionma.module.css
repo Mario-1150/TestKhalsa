@@ -1,0 +1,149 @@
+.whatDoesThisMeanContainerChild {
+  height: 77px;
+  width: 436px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.whatDoesThis {
+  width: 260px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.whatDoesThisMeanContainer,
+.whatDoesThisMeanContainerItem {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.whatDoesThisMeanContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 2;
+}
+.whatDoesThisMeanContainerItem {
+  height: 77px;
+  width: 436px;
+  position: relative;
+  display: none;
+}
+.whatDoI {
+  width: 260px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+.whatDoesThisMeanContainer1,
+.whatDoesThisMeanContainerInner {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  max-width: 100%;
+}
+.whatDoesThisMeanContainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.whatDoesThisMeanContainerInner {
+  height: 77px;
+  width: 436px;
+  position: relative;
+  display: none;
+}
+.canYouProvide {
+  width: 260px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 3;
+}
+.whatDoesThisMeanContainer2 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-3xl) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 2;
+}
+.whatDoesThisMeanContainer3 {
+  align-self: stretch;
+  height: 77px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.whatDoesThisMeanContainerParent {
+  width: 436px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 436px;
+  max-width: 100%;
+}
+.whatDoesThisMeanQuestionma {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1125px) {
+  .whatDoesThisMeanContainerParent {
+    flex: 1;
+  }
+  .whatDoesThisMeanQuestionma {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .whatDoesThisMeanContainerParent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatDoesThisMeanContainer3 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .whatDoesThisMeanContainerParent {
+    gap: var(--gap-3xl);
+  }
+}

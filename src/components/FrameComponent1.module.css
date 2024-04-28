@@ -1,0 +1,165 @@
+.aSimplifiedTool1,
+.easyread {
+  position: relative;
+  line-height: 38px;
+  white-space: nowrap;
+}
+.easyread {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+}
+.aSimplifiedTool1 {
+  width: 316px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.aSimplifiedTool,
+.aSimplifiedToolWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aSimplifiedTool {
+  align-self: stretch;
+  gap: var(--gap-mini);
+}
+.aSimplifiedToolWrapper {
+  width: 425px;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.home {
+  align-self: stretch;
+  position: relative;
+  line-height: 35px;
+}
+.homeWrapper {
+  width: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.account {
+  width: 164px;
+  position: relative;
+  line-height: 35px;
+  display: inline-block;
+}
+.accountWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.unionIcon {
+  width: 79.4px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.unionWrapper {
+  width: 154.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base-3) 0 0;
+  box-sizing: border-box;
+}
+.signUpButtonChild {
+  height: 43px;
+  width: 167px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-lemonchiffon);
+  display: none;
+}
+.signIn {
+  width: 103px;
+  position: relative;
+  line-height: 38px;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.signInButton,
+.signUpButton {
+  display: flex;
+  align-items: flex-start;
+}
+.signUpButton {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-lemonchiffon);
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-10xs) var(--padding-sm) var(--padding-11xs);
+  white-space: nowrap;
+}
+.signInButton {
+  flex: 0.8146;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-19xl) 0 0;
+  text-align: left;
+}
+.frameChild {
+  height: 43px;
+  width: 167px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.frameGroup {
+  flex: 1;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-xl);
+}
+.frameGroup,
+.frameParent,
+.gettingStartedupload2Inner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-17xl);
+}
+.gettingStartedupload2Inner {
+  width: 1425px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-15xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1325px) {
+  .aSimplifiedTool1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameGroup {
+    display: none;
+  }
+}
